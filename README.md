@@ -1,5 +1,5 @@
-# AWS-Utils
-Various wrappers and utilities for using AWS in a web application.
+# AWS Java Utils
+Various wrappers and utilities for using AWS in a Java web application.
 
 ## aws.http
 ### AWSLoadBalancerFilter
