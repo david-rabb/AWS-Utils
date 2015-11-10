@@ -2,7 +2,8 @@
 Various wrappers and utilities for using AWS in a Java web application.
 
 ## aws.http
-### AWSLoadBalancerFilter
+
+#### AWSLoadBalancerFilter
 A javax.servlet.Filter implementation to fold in the request headers sent by 
 AWS Elastic Load Balancers so request scheme and remote address can be detected as they
 were sent by the browser rather than what is being sent directly by the ELB.
