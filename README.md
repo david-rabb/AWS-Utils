@@ -9,4 +9,11 @@ AWS Elastic Load Balancers so request scheme and remote address can be detected 
 were sent by the browser rather than what is being sent directly by the ELB.
 More info here: http://docs.aws.amazon.com/ElasticLoadBalancing/latest/DeveloperGuide/x-forwarded-headers.html
 
+## aws.crypto
 
+#### AES
+Simplified interface for AES encryption/decryption. This implementation enforces the following specs:
+* __Algorithm: AES 256__ - Symmetric Encryption with 256 bit keys
+* __Scheme:	GCM__ - Authenticated Encryption with AAD, 128bit GCM tab bit length
+* __IV Size:	16 bytes__
+* __Text Encoding:	UTF-8__
