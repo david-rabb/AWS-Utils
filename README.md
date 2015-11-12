@@ -24,6 +24,7 @@ Wrapper for using AWS KMS as a keystore to perform envelope encryption. Security
 * Master keys are not stored on local server
 * Multiple clients can use the same keys
 * Access keys to KMS can be revoked from AWS console
+
 _Usage Notes_: 
 * Data keys need to be generated in advance of usage and app deployment. 
 * Recommended Role-Based access to production KMS keystores rather than user-based credentials.
