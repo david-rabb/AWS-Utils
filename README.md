@@ -12,7 +12,7 @@ More info here: http://docs.aws.amazon.com/ElasticLoadBalancing/latest/Developer
 ## aws.crypto
 
 #### AES
-Simplified interface for AES encryption/decryption. This implementation enforces the following specs:
+Simplified interface for AES encryption/decryption of text or streams. This implementation enforces the following specs:
 * __Algorithm: AES 256__ - Symmetric Encryption with 256 bit keys
 * __Scheme:	GCM__ - Authenticated Encryption with AAD, 128bit GCM tab bit length
 * __IV Size:	16 bytes__
