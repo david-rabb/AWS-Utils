@@ -25,7 +25,7 @@ import org.apache.commons.codec.binary.Base64;
  * <br>  <b>Scheme:	GCM </b> - Authenticated Encryption with AAD, 128bit GCM tab bit length
  * <br>  <b>IV Size:	16 bytes </b>
  * <br>  <b>Text Encoding:	UTF-8 </b>
- * @author David
+ * @author David Rabb
  */
 public class AES {
   public static final String CIPHER_ALGORITHM = "AES";
