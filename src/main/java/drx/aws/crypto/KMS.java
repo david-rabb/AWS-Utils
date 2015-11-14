@@ -28,7 +28,7 @@ import com.google.common.cache.RemovalNotification;
 */
 public class KMS {
   public static final int CACHE_EXPIRY = 10; // maximum age of cached elements in minutes
-  public static final String KEYSPEC = "AES_256";
+  public static final String KEYSPEC = "AES_256"; // only allow AES-256/GCM encryption
   
 
   private static Properties properties; 

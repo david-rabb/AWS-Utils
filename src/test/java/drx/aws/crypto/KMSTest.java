@@ -46,4 +46,6 @@ public class KMSTest {
     assertEquals(plaintextData, decr);
   }
   
+  // need to test cache lifecycle
+  
 }
